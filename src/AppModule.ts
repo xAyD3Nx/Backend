@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import TaskController from './Controllers/TaskController';
+import TaskController from './Tasks/TaskController';
 import { PrismaService } from './PrismaService';
 import TaskRepository from './Repositories/TaskRepository';
 import UseCaseFactory from './UseCase/UseCaseFactory';
